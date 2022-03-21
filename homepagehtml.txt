@@ -1,0 +1,155 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wishlist - A Little Bit of Hope</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <img src="/Users/deonnaowens/downloads/ALBH_Logo.png" alt="logo"
+      width="165"
+      height="45">
+      <ul class="nav-links">
+        <li><a href="https://littlebitofhope.org/">Overview&nbsp;</a></li>
+        <li><a href="https://littlebitofhope.org/visionaries/">About&nbsp;</a></li>
+        <li><a href="https://littlebitofhope.org/services/">Services&nbsp;</a></li>
+        <li><a href="https://littlebitofhope.org/events/">Events&nbsp;</a></li>
+        <li><a href="https://littlebitofhope.org/testimonials/">Press&nbsp;</a></li>
+        <li><a href="https://littlebitofhope.org/newsletter-library/">Media Center&nbsp;</a></li>
+        <li><a href="https://littlebitofhope.org/volunteer/">Volunteer&nbsp;</a></li>
+        <li><a href="https://littlebitofhope.org/contact/">Contact&nbsp;</a></li>
+        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+        <li><i class="fa fa-amazon" aria-hidden="true"></i></li>
+        <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+        <button class="button">DONATE</button>
+      </ul>
+    </nav>
+  </div>
+</body>
+
+</html>
+<html>
+
+<p style="font-size:20px;text-align:center;padding-top: 25px; font-family: 'Roboto'; font-weight: 600;"> My Wishlist</p>
+
+</html>
+
+<body>
+
+  <table style="margin: 0px auto; width:65%; padding-top: 30px;">
+    
+    <tr style="height:40px;">
+      
+      <th style="text-align:center; background-color: #f3f3f3;">Item</th>
+      <th style="text-align:center; background-color: #f3f3f3;">Goal</th>
+      <th style="text-align:center; background-color: #f3f3f3;">Price Range</th>
+      <th style="text-align:center; background-color: #f3f3f3;">Donate</th>
+    </tr>
+  
+    <tr style="height: 75px;">
+      <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">Children's Books</td>
+      <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">300</td>
+      <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">$10-$100</td>
+      <style>
+        button {
+          display: inline-block;
+          background-color: #0076ff;
+          border-radius: 10px;
+          border: 4px double #cccccc;
+          color: #eeeeee;
+          text-align: center;
+          font-size: 12px;
+          padding: 4px;
+          width: 100px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 5px;
+        }
+      </style>
+      
+
+    <!--This is where the input code begins-->
+    <td style="text-align:center">
+    <html>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      </head>
+    <body>
+    
+    <button class="button" onclick="openForm()">DONATE</button>
+    
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+      <div class="popup-header">
+        <h1>Enter Your Information to Donate</h1>
+      </div>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+    
+        <label for="fname"><b>First Name</b></label>
+        <input type="text" placeholder="Enter First Name" name="firstName" required>
+        
+        <label for="lname"><b>Last Name</b></label>
+        <input type="text" placeholder="Enter Last Name" name="lastName" required>
+    
+
+        <button type="submit" class="button">SAVE</button>
+        <button type="button" class="button" onclick="closeForm()">EXIT</button>
+      </form>
+    </div>
+    
+    <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+    
+    </body>
+    </html>
+<!--This is where the new input code ends-->   
+  
+    </td>
+  </tr>
+
+    <tr style="height:75px">
+      <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">Children's Winter Coats</td>
+      <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">300</td>
+      <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">$100-$200</td>
+      <td style="text-align:center">
+          <button class="button">DONATE</button>
+      </td>
+    </tr>
+  
+    <tr style="height:75px">
+        <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">School Supplies</td>
+        <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">10000</td>
+        <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">$25-$100</td>
+        <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">
+          <button class="button">DONATE</button>
+      </td>
+    </tr>
+  
+    <tr style="height:75px">
+        <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">Children's Backpacks</td>
+        <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">500</td>
+        <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">$20-$150</td>
+        <td style="text-align:center; font-size: 14px; font-family: 'Roboto'; font-weight: 500;">
+          <button class="button">DONATE</button>
+      </td>
+    </tr>
+  </table>
+  
+
+</body>
+
+
